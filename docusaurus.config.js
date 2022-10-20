@@ -15,7 +15,7 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/wizfavicon.ico",
   organizationName: "Wiznet-Open-Cloud", // Usually your GitHub org/user name. 변경
-  projectName: "aws-wiznet-cloud-docs", // Usually your repo name. 변경
+  projectName: "aws-wiznet-cloud-docs", // Usually your repo name.
 
   presets: [
     [
