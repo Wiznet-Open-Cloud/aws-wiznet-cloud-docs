@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>WIZnet Cloud Docs</ShortName>
+  <Description>Search WIZnet Cloud Docs</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://wiznet-open-cloud.github.io/aws-wiznet-cloud-docs/img/wizfavicon.ico</Image>
+  <Url type="text/html" method="get" template="https://wiznet-open-cloud.github.io/aws-wiznet-cloud-docs/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://wiznet-open-cloud.github.io/aws-wiznet-cloud-docs/opensearch.xml" />
+  <moz:SearchForm>https://wiznet-open-cloud.github.io/aws-wiznet-cloud-docs/</moz:SearchForm>
+</OpenSearchDescription>
