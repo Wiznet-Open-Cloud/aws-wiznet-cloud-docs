@@ -1,33 +1,69 @@
-name: Docusaurus on Windows ENV
+name: Deploy to GitHub Pages
 
 on:
-  # Trigger the workflow on push or pull request,
-  # but only for the master branch
   push:
     branches:
       - main
 
 jobs:
-  build:
-    runs-on: windows-2019
-    strategy:
-      matrix:
-        node-version: [16.14.x]
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
-      - name: Installation
-        #       run: yarn
-        run: npm i
-      - name: Docusaurus 2 Build
-        #       run: yarn build
-        run: npm run build
-      - name: Deploy
+          node-version: 16.14
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build website
+        run: yarn build
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          #         publish_dir: ./website/build
-          publish_dir: ./build/
+          # `gh-pages` 브랜치에 게시할 결과물을 빌드합니다.
+          publish_dir: ./build
+          # 다음 줄에서는 `gh-pages` 브랜치에 배포하기 위해
+          # 공식 GH-Actions 봇에 커밋 권한을 할당합니다.
+          # https://github.com/actions/checkout/issues/13#issuecomment-724415212
+          # 아래 2개 필드를 지정하지 않으면 GH 액션 봇이 기본적으로 사용됩니다.
+          # 자신의 자격증명으로 교체할 수 있습니다.
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+# name: Docusaurus on Windows ENV
+
+# on:
+#   # Trigger the workflow on push or pull request,
+#   # but only for the master branch
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   build:
+#     runs-on: windows-2019
+#     strategy:
+#       matrix:
+#         node-version: [16.14.x]
+#     steps:
+#       - uses: actions/checkout@v1
+#       - name: Use Node.js ${{ matrix.node-version }}
+#         uses: actions/setup-node@v1
+#         with:
+#           node-version: ${{ matrix.node-version }}
+#       - name: Installation
+#         #       run: yarn
+#         run: npm i
+#       - name: Docusaurus 2 Build
+#         #       run: yarn build
+#         run: npm run build
+#       - name: Deploy
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           #         publish_dir: ./website/build
+#           publish_dir: ./build/
