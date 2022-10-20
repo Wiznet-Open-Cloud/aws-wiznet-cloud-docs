@@ -27,7 +27,7 @@ const config = {
           remarkPlugins: [rlc],
           // Please change this to your repo.
           editUrl:
-            "https://github.com/appcircleio/appcircle-docusaurus/tree/master/",
+            "https://github.com/Wiznet-Open-Cloud/aws-wiznet-cloud-docs/tree/main",
           routeBasePath: "/",
         },
         blog: false,

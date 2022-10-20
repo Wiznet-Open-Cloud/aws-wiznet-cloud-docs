@@ -2,7 +2,7 @@
 title: Creating a Dashboard
 metaTitle: Creating a Dashboard
 metaDescription: Creating a Dashboard
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 # Creating a Dashboard
