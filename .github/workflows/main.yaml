@@ -1,20 +1,33 @@
-on: [deployment_status, workflow_dispatch]
+name: Docusaurus on Windows ENV
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the master branch
+  push:
+    branches:
+      - main
 
 jobs:
-  update-docsearch:
-    name: Update DocSearch
-    runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || github.event.deployment_status.state == 'success'
+  build:
+    runs-on: windows-2019
+    strategy:
+      matrix:
+        node-version: [14.x.x]
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
-      - name: Run scraper
-        env:
-          APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
-          API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-        run: |
-          docker run \
-                  -e APPLICATION_ID=$APPLICATION_ID \
-                  -e API_KEY=$API_KEY \
-                  -e "CONFIG=$(cat ./algolia.config.json | jq -r tostring)" \
-                  algolia/docsearch-scraper 
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Installation
+        #       run: yarn
+        run: npm i
+      - name: Docusaurus 2 Build
+        #       run: yarn build
+        run: npm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          #         publish_dir: ./website/build
+          publish_dir: ./build/
