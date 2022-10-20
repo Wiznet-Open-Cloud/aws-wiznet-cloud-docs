@@ -54,11 +54,6 @@ const config = {
             label: "Documentation",
           },
           {
-            to: "updates/release-notes",
-            position: "left",
-            label: "Release Notes",
-          },
-          {
             href: "https://maker.wiznet.io/",
             label: "Maker",
             position: "right",
@@ -114,11 +109,6 @@ const config = {
                 label: "Documentation",
                 type: "doc",
                 to: "/",
-              },
-              {
-                label: "Release Notes",
-                type: "doc",
-                to: "updates/release-notes",
               },
             ],
           },
