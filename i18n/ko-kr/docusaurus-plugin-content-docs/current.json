@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.mySidebar.category.Quick Start": {
+    "message": "Quick Start",
+    "description": "The label for category Quick Start in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.How to connect your device?": {
+    "message": "How to connect your device?",
+    "description": "The label for category How to connect your device? in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.How to use WIZnet Cloud": {
+    "message": "How to use WIZnet Cloud",
+    "description": "The label for category How to use WIZnet Cloud in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Dashboards": {
+    "message": "Dashboards",
+    "description": "The label for category Dashboards in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Support": {
+    "message": "Support",
+    "description": "The label for category Support in sidebar mySidebar"
+  }
+}

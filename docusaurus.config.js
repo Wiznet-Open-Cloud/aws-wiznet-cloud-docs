@@ -17,6 +17,12 @@ const config = {
   organizationName: "Wiznet-Open-Cloud", // Usually your GitHub org/user name. 변경
   projectName: "aws-wiznet-cloud-docs", // Usually your repo name.
 
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "ko-kr"],
+    path: "i18n",
+  },
+
   presets: [
     [
       "classic",
@@ -52,6 +58,10 @@ const config = {
             to: "/",
             position: "left",
             label: "Documentation",
+          },
+          {
+            type: "localeDropdown",
+            position: "right",
           },
           {
             href: "https://maker.wiznet.io/",
