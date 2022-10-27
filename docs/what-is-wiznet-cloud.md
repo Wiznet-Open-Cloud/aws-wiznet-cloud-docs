@@ -9,7 +9,7 @@ hide_table_of_contents: false
 
 # What is WIZnet Cloud?
 
-WIZnet Cloud is an IoT Device connection service based on MQTT.
+WIZnet Cloud is an IoT device connection service based on MQTT.
 Providing near real-time data monitoring service.
 
 ### Features

@@ -11,9 +11,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 
 Create a new account as follows: <br />
 
-### Step 1. Click SIGN UP button
+### Step 1. Open WIZnet Cloud
 
-Open [WIZnet Cloud](https://development.dewfiou61jl13.amplifyapp.com/) and click the sign up button.
+Open [WIZnet Cloud](https://development.dewfiou61jl13.amplifyapp.com/) and click the **SIGN UP** button.
 
 <div>
     <img alt="click-sign-up-button" src={useBaseUrl('/img/quickstart/create-account/1.png')} />
@@ -21,7 +21,7 @@ Open [WIZnet Cloud](https://development.dewfiou61jl13.amplifyapp.com/) and click
 
 ### Step 2. Enter your information
 
-All input fields are required.
+All input fields are required. Enter your information and check the policy.
 
 <div>
     <img alt="enter-your-information" src={useBaseUrl('/img/quickstart/create-account/2.png')} />
