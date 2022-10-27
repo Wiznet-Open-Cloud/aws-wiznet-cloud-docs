@@ -2,7 +2,7 @@
 title: 대시보드 만들기
 metaTitle: Creating a Dashboard
 metaDescription: Creating a Dashboard
-sidebar_position: 8
+sidebar_position: 11
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl'

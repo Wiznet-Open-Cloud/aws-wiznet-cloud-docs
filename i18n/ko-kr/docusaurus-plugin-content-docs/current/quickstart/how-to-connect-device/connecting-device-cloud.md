@@ -2,7 +2,7 @@
 title: 디바이스와 클라우드 연결하기
 metaTitle: Connecting Device to Cloud
 metaDescription: Connecting Device to Cloud
-sidebar_position: 6
+sidebar_position: 9
 ---
 
 # 디바이스와 클라우드 연결하기

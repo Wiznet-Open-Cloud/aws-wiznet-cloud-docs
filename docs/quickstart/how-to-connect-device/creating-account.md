@@ -2,7 +2,7 @@
 title: Creating a WIZnet Cloud Account
 metaTitle: Creating a WIZnet Cloud Account
 metaDescription: Creating a WIZnet Cloud Account
-sidebar_position: 4
+sidebar_position: 7
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl'

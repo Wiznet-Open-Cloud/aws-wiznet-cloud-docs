@@ -2,7 +2,7 @@
 title: 디바이스 생성하기
 metaTitle: Creating a Device
 metaDescription: Creating a Device
-sidebar_position: 5
+sidebar_position: 8
 # sidebar_label: "Step 2"
 # ![image](../../../static/img/quickstart/create-device/create_device1.png)
 ---

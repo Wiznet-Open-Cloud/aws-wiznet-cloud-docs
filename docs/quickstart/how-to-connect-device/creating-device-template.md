@@ -2,7 +2,7 @@
 title: Creating a Device Template
 metaTitle: Creating a Device Template
 metaDescription: Creating a Device Template
-sidebar_position: 7
+sidebar_position: 10
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl'

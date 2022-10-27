@@ -2,7 +2,7 @@
 title: Creating a Dashboard
 metaTitle: Creating a Dashboard
 metaDescription: Creating a Dashboard
-sidebar_position: 8
+sidebar_position: 11
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl'

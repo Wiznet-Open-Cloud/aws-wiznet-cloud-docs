@@ -2,7 +2,7 @@
 title: WIZnet Cloud 계정 생성하기
 metaTitle: Creating a WIZnet Cloud Account
 metaDescription: Creating a WIZnet Cloud Account
-sidebar_position: 4
+sidebar_position: 7
 ---
 
 # WIZnet Cloud 계정 생성하기
