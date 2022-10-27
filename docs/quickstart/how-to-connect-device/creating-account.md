@@ -27,10 +27,10 @@ All input fields are required. Enter your information and check the policy.
     <img alt="enter-your-information" src={useBaseUrl('/img/quickstart/create-account/2.png')} />
 </div>
 
-### Step 3. Enter your verify code
+### Step 3. Enter your verification code
 
-Verify code is sent to your email address. Go your email and copy the verify code and paste that in input field.
-If you done confirming, you can sign in WIZnet Cloud.
+A verification code waas sent to your email address. Go your email and copy the verification code and paste it into the input field.
+After your confirmation, you can sign into WIZnet Cloud.
 
 <div>
     <img alt="enter-verify-code" src={useBaseUrl('/img/quickstart/create-account/3.png')} />

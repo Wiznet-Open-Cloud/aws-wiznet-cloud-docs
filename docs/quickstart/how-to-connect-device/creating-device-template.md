@@ -10,8 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 # Creating a Device Template
 
 A device template defines the type of data that a device sends.
-If the data format sent by the device matches the device template format, the data is saved as model data, otherwise it is saved as unmodel data.
-Unmodel data cannot create dashboard widgets.
+If the data format sent by the device matches the device template format, the data is saved as model data. Otherwise the data is saved as unmodel data which cannot be use to create dashboard widgets.
 
 ### Create new template
 
