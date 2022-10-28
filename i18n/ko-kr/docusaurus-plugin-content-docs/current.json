@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.mySidebar.category.Quick Start": {
-    "message": "Quick Start",
+    "message": "빠른 시작",
     "description": "The label for category Quick Start in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.How to connect your device?": {
-    "message": "How to connect your device?",
+    "message": "WIZ Cloud 기본 사용법",
     "description": "The label for category How to connect your device? in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.How to use WIZnet Cloud": {

@@ -35,6 +35,7 @@ const config = {
           editUrl:
             "https://github.com/Wiznet-Open-Cloud/aws-wiznet-cloud-docs/tree/main",
           routeBasePath: "/",
+          editLocalizedFiles: true, // 다국어 처리
         },
         blog: false,
         theme: {
