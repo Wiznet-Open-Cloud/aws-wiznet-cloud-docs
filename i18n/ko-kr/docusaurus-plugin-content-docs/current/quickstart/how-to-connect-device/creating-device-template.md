@@ -28,7 +28,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 </div>
 <br />
 
-템플릿이 생성되면, 디바이스 리스트에서 디바이스 이름을 클릭해서 상세 페이지로 갈 수 있습니다.
+템플릿이 생성되면, 디바이스 리스트에서 디바이스 이름을 클릭해서 상세 페이지로 갈 수 있습니다. 상세 페이지에서 capability를 추가해서 디바이스가 보내는 데이터 형태에 대해서 정의합니다.
 
 <div>
     <img alt="click-template-details" src={useBaseUrl('/img/quickstart/create-template/create_template3.png')} />
@@ -53,14 +53,14 @@ capability를 추가했다면 저장해야 합니다.
 **Save**는 디바이스 템플릿의 내용이 변경된 것을 저장한다는 것입니다. 하지만 변경된 내용이 디바이스에 적용되지는 않습니다. **Publish**는 변경한 내용을 디바이스에 실제로 적용한다는 것입니다. <br/>
 
 만약 디바이스에 디바이스 템플릿이 할당되어 있는 상태에서 디바이스 템플릿 내용을 변경하고 Save만 했다면 디바이스에는 영향을 끼치지 않습니다. 디바이스는 여전히 이전에 publish되었던 디바이스 템플릿 내용을 기준으로 데이터의 모델 여부를 판단합니다. Publish되어야만 디바이스가 보내는 데이터를 판단하는 기준점이 변경됩니다. <br/>
-앞에서 생성한 capability 내용을 저장합니다. 아직 실제로 디바이스에 적용되지 않는 상태입니다.
+모든 capability를 추가했다면 저장합니다. 아직 실제로 디바이스에 적용되지 않는 상태입니다.
 
 <div>
     <img alt="click-save-button" src={useBaseUrl('/img/quickstart/create-template/create_template5.png')} />
 </div>
 <br />
 
-save를 완료했으면 publish합니다. publish는 save가 선행되어야만 할 수 있는 작업입니다. save 해야 publish 버튼이 활성화됩니다. publish 하면 실제로 디바이스에 적용되는 상태가 됩니다.
+Save를 완료했으면 Publish 버튼을 클릭해서 실제 디바이스에 적용되는 상태로 변경해줍니다.
 
 <div>
     <img alt="click-publish-button" src={useBaseUrl('/img/quickstart/create-template/create_template6.png')} />

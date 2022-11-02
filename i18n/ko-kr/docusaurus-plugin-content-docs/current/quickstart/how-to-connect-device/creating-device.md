@@ -76,7 +76,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 </div>
 <br />
 
-Device Management tab에서는 디바이스의 실제 이름, 디바이스 Endpoint, MQTT topic을 확인할 수 있습니다.
+Device Management tab에서는 클라우스 연결에 필요한 디바이스의 실제 이름, 디바이스 Endpoint, MQTT topic을 확인할 수 있습니다.
 디바이스 생성 시에 설정한 이름과 클라우드에서 사용하는 이름은 별도입니다. 디바이스 연결을 위해서는 실제 디바이스 이름을 사용해야 합니다.
 
 <div>

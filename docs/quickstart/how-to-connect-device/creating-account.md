@@ -9,9 +9,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 
 # Creating a WIZnet Cloud Account
 
-Create a new account as follows: <br />
+First, you need to create an account to use WIZnet Cloud. Create a new account as follows: <br />
 
-### Step 1. Open WIZnet Cloud
+### Open WIZnet Cloud
 
 Open [WIZnet Cloud](https://development.dewfiou61jl13.amplifyapp.com/) and click the **SIGN UP** button.
 
@@ -29,7 +29,7 @@ All input fields are required. Enter your information and check the policy.
 
 ### Step 3. Enter your verification code
 
-A verification code waas sent to your email address. Go your email and copy the verification code and paste it into the input field.
+After entering the information and clicking the Sign up button, a verification code was sent to your email address. Go your email and copy the verification code and paste it into the input field.
 After your confirmation, you can sign into WIZnet Cloud.
 
 <div>

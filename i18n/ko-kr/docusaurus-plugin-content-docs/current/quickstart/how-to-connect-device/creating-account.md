@@ -32,7 +32,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 
 정보를 입력하고 Sign up 버튼을 클릭하면, 입력한 이메일 정보로 인증코드가 발송됩니다.
 이메일에 들어가서 인증 코드를 복사한 후 입력칸에 붙여넣습니다.
-코드를 입력한 후 Confirm 버튼을 누르면 이메일 인증이 완료되고 위즈네트 클라우드에 로그인할 수 있습니다.
+인증이 완료되면, 위즈네트 클라우드에 로그인할 수 있습니다.
 
 <div>
     <img alt="enter-verify-code" src={useBaseUrl('/img/quickstart/create-account/3.png')} />
