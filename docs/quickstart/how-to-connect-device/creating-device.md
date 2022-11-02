@@ -23,7 +23,7 @@ Go to the device page and click the register button.
 When you click the button, the dialog window appears.
 
 <div>
-    <img alt="device-register-dialog" src={useBaseUrl('/img/quickstart/create-device/create_device2.png')} />
+    <img alt="device-register-dialog" src={useBaseUrl('/img/quickstart/create-device/create_device2_en.png')} />
 </div>
 <br />
 
