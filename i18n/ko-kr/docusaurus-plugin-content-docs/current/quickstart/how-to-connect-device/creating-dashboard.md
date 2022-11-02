@@ -21,14 +21,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 </div>
 <br />
 
-대시보드 타이틀을 설정하고, Create 버튼을 클릭합니다.
+대시보드 타이틀을 설정하고, **Create** 버튼을 클릭합니다.
 
 <div>
     <img alt="dashboard-create-dialog" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard2.png')} />
 </div>
 <br />
 
-대시보드 리스트에서 대시보드 타이틀을 클릭해서 상세 페이지로 넘어갑니다.
+대시보드 리스트에서 생성한 대시보드의 타이틀을 클릭해서 상세 페이지로 넘어갑니다.
 
 <div>
     <img alt="click-dashboard-title" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard3.png')} />
@@ -37,23 +37,23 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 
 ### 새로운 위젯 추가하기
 
-대시보드 상세 페이지에서 Add New Widget 버튼이나 Add 버튼을 클릭합니다. 버튼을 클릭하면 위젯 생성을 위한 입력창이 나타납니다.
+대시보드 상세 페이지에서 **Add New Widget** 버튼이나 **Add** 버튼을 클릭합니다. 버튼을 클릭하면 위젯 생성을 위한 입력창이 나타납니다.
 
 <div>
     <img alt="add-new-widget" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard4.png')} />
 </div>
 <br />
 
-위젯 생성 입력칸들은 모두 필수입니다. 먼저 위젯 타이틀을 입력하고, 위젯 타입을 선택합니다. <br />
-위젯 타입에는 D2C, C2D 으로 두 개의 타입이 있습니다. **D2C** 타입은 Device to Control의 약자로 디바이스에서 보내는 데이터를 시각화하는 데에 사용하는 위젯입니다. 대표적으로 Line, Bar 차트 등이 있습니다. **C2D** 는 Control to Device 의 약자로 디바이스에 명령을 보내는 위젯 타입입니다. MQTT Message를 보내거나 ON/OFF 메시지를 보낼 수 있습니다. <br />
-여기에서는 Line chart를 만들기 위해서 D2C 타입을 선택했습니다. 타입을 선택한 후 Widget Library에서 Browse 버튼을 클릭해서 위젯을 선택합니다.
+위젯 생성 입력란들은 모두 필수입니다. 먼저 위젯 타이틀을 입력하고, 위젯 타입을 선택합니다. <br />
+위젯 타입에는 **D2C, C2D** 두 개의 타입이 있습니다. **D2C** 타입은 Device to Control의 약자로, 디바이스에서 보내는 데이터를 시각화하는 데에 사용하는 위젯입니다. 대표적으로 Line, Bar 차트 등이 있습니다. **C2D** 는 Control to Device 의 약자로, 디바이스에 명령을 보내는 위젯 타입입니다. 디바이스에 MQTT Message를 보내거나 ON/OFF 메시지를 보낼 수 있습니다. <br />
+여기에서는 Line chart를 만들기 위해서 D2C 타입을 선택했습니다. 타입을 선택한 후 Widget Library에서 **Browse** 버튼을 클릭해서 위젯을 선택합니다.
 
 <div>
     <img alt="widget-setting" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard5.png')} />
 </div>
 <br />
 
-다이얼로그에서 Line Chart를 선택합니다.
+다이얼로그 창에서 Line Chart를 선택합니다.
 
 <div>
     <img alt="select-widget-library" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard6.png')} />

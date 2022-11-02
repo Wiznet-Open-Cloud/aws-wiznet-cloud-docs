@@ -14,21 +14,21 @@ If a device template has not been set on the device, set it up referring to the 
 
 ### Create new dashboard
 
-In dashboard page, click the **+ NEW** button.
+On the dashboard page, click the **+ NEW** button.
 
 <div>
     <img alt="click-new-dashboard-button" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard1.png')} />
 </div>
 <br />
 
-Set the dashboard title on dialog, click the **Create** button.
+To set the dashboard title on dialog, click the **Create** button.
 
 <div>
     <img alt="dashboard-create-dialog" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard2.png')} />
 </div>
 <br />
 
-Click the dashboard title in the dashboard list to enter the detail page.
+Click the dashboard title on the dashboard list to enter the detail page.
 
 <div>
     <img alt="click-dashboard-title" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard3.png')} />
@@ -44,12 +44,11 @@ Click **Add New Widget** or **Add** button in detail page. When you click the bu
 </div>
 <br />
 
-All input fields are required. First, enter the widget title and select the widget type. <br/>
-There are two widget types, D2C and C2D. <br />
+All input fields are required. First, enter the widget title and select the widget type.There are two widget types, **D2C, C2D**. <br />
 **D2C** type is an abbreviation of Device to Control and is a widget used to visualize the data sent from the device. Typical examples include line and bar charts.
 **C2D** is an abbreviation of Control to Device, which is a widget type that sends commands to the device. You can send MQTT messages or send ON/OFF messages.
 In this tutorial, the D2C type is selected to create a line chart.
-Click the **Browse** button to select a library of widgets from among d2c type widgets.
+Click the **Browse** button to select a library of widgets from among D2C type widgets.
 
 <div>
     <img alt="widget-setting" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard5.png')} />
@@ -63,7 +62,7 @@ Select the Line Chart in the dialog window.
 </div>
 <br />
 
-Select the device you created in the previous step.
+Select the device you created in the previously step.
 
 <div>
     <img alt="select-device" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard7.png')} />
@@ -71,7 +70,7 @@ Select the device you created in the previous step.
 <br />
 
 Capability is a list of capabilities of the template that the device has.
-Select the capability to visualize in the chart. If capability is selected, click Add button to create widget.
+Select the capability to visualize in the chart. After the capability is selected, click Add button to create widget.
 
 <div>
     <img alt="select-capability" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard8.png')} />

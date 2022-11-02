@@ -9,21 +9,21 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 
 # Creating a Device Template
 
-&nbsp In the previous step, we connected the devices and verified that the data is being sent to the Cloud. In this step, we will set the device template on the device to change it to a state where we can create widgets on the dashboard. <br/>
-&nbspA device template defines the type of data that a device sends.
-A device template is a set of capabilities, and each item consists of a capability name and data type. It is created according to the type of data sent by the device. <br/>
-&nbspIf the data format sent by the device matches the device template format, the data is saved as model data. Otherwise the data is saved as unmodel data which cannot be use to create dashboard widgets.
+&nbsp In the previous step, we connected the devices and verified that the data is being sent to the Cloud. In next step, we will set the device template on the device to change it to a state where we can create widgets on the dashboard. => 이 문장 이상함 고쳐야 함 <br/>
+&nbsp A device template defines the type of data that a device sends.
+A device template is a set of capabilities, and each item consists of a capability name, data type. It is created according to the type of data sent by the device. <br/>
+&nbsp If the data format sent by the device matches the device template format, the data is saved as **model data**. Otherwise the data is saved as **unmodel data** which cannot be used to create dashboard widgets.
 
 ### Create new template
 
-In device template page, click **+ New Template** button.
+On the device template page, click **+ New Template** button.
 
 <div>
     <img alt="click-new-template-button" src={useBaseUrl('/img/quickstart/create-template/create_template1.png')} />
 </div>
 <br />
 
-When the dialog window appears, set the name of device template and click the **Create** button.
+When the dialog window appears, set the name of the device template and click the **Create** button.
 
 <div>
     <img alt="create-template-dialog" src={useBaseUrl('/img/quickstart/create-template/create_template2.png')} />
@@ -31,7 +31,7 @@ When the dialog window appears, set the name of device template and click the **
 <br />
 
 Once the template is created, click the name in the device template list to enter the detail page.
-Define the data format sent from the device by adding capability on the detail page.
+Define the data format sent from the device by adding capabilities from the detail page.
 
 <div>
     <img alt="click-template-details" src={useBaseUrl('/img/quickstart/create-template/create_template3.png')} />
@@ -40,7 +40,7 @@ Define the data format sent from the device by adding capability on the detail p
 
 ### Create capabilities
 
-On the template detail page, click the **Add Capability** button to add capabilities. Makes it the same as the data sent from the device.
+On the template detail page, click the **Add Capability** button to add capabilities. This action makes it the same as the data sent from the device.
 
 <div>
     <img alt="add-capbilities" src={useBaseUrl('/img/quickstart/create-template/create_template4.png')} />
@@ -53,7 +53,7 @@ If you have added capabilities, you should save them. Device templates have two 
 **Save** means that the device template content is changed, but is not yet applied to the device. <br />
 **Publish** is to change the state to be applied to the actual device.
 
-If a device template is applied to a device and the contents are changed in the template and saved, the device data is still classified based on the previous publish status. The device still determines whether the data is a model based on the content of the previously published device template. Only when it is published, the reference point for judging the data sent by the device changes. <br/>
+If a device template is applied to a device and the contents are changed in the template and saved, the device data is still classified based on the previous published status. The device still determines whether the data is a model based on the content of the previously published device template.=> 문장 수정 필요 Only when it is published, the reference point for judging the data sent by the device changes. <br/>
 When you have added all the capabilities, click the **Save** button to save the changes.
 It is not yet actually applied to the device.
 
