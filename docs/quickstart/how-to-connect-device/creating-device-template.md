@@ -9,10 +9,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 
 # Creating a Device Template
 
-&nbsp In the previous step, we connected the devices and verified that the data is being sent to the Cloud. In next step, we will set the device template on the device to change it to a state where we can create widgets on the dashboard. => 이 문장 이상함 고쳐야 함 <br/>
-&nbsp A device template defines the type of data that a device sends.
-A device template is a set of capabilities, and each item consists of a capability name, data type. It is created according to the type of data sent by the device. <br/>
-&nbsp If the data format sent by the device matches the device template format, the data is saved as **model data**. Otherwise the data is saved as **unmodel data** which cannot be used to create dashboard widgets.
+In the previous step, we connected the devices and verified that the data is being sent to the Cloud.
+In this step, by assigning a device template to the device. It will change the data sent from the device to a state where we can create widgets in the dashboard.
+
+A device template defines the format of data that a device sends.
+A device template is a set of capabilities, and each item consists of a capability name, data type. It is created according to the type of data sent by the device.
+
+If the data format sent by the device matches the device template format, the data is saved as **model data**. Otherwise, the data is saved as **unmodel data** which cannot be used to create dashboard widgets.
 
 ### Create new template
 
@@ -49,13 +52,13 @@ On the template detail page, click the **Add Capability** button to add capabili
 
 ### Save and Publish capabilities
 
-If you have added capabilities, you should save them. Device templates have two main concepts: **Save and Publish**. <br />
-**Save** means that the device template content is changed, but is not yet applied to the device. <br />
-**Publish** is to change the state to be applied to the actual device.
+If you have added capabilities, you should save them. Device templates have two main concepts: **Save and Publish**.
 
-If a device template is applied to a device and the contents are changed in the template and saved, the device data is still classified based on the previous published status. The device still determines whether the data is a model based on the content of the previously published device template.=> 문장 수정 필요 Only when it is published, the reference point for judging the data sent by the device changes. <br/>
-When you have added all the capabilities, click the **Save** button to save the changes.
-It is not yet actually applied to the device.
+- **Save**: "Save" changes to the device template. However, the changes are not applied to the device.
+- **Publish**: "Publish" changes and saves to actually apply them to devices.
+
+If a device template is assigned to a device and the contents of the device template are changed and saved, the device is not affected. The device still determines whether the data is modeled against the previously published device template. Only when the device template is published, the criteria for judging data changes. <br/>
+After adding all the capabilities, click the **Save** button to save the changes. It is not yet actually applied to the device.
 
 <div>
     <img alt="click-save-button" src={useBaseUrl('/img/quickstart/create-template/create_template5.png')} />
@@ -70,7 +73,8 @@ After saving, click the **Publish** button to change it to a state that can actu
 <br />
 
 If you go back to the device template list page after publishing is complete, you can check the status of Pending and Published.
-**Pending** means whether the state is saved or not. If published, it will be displayed as **No Pending Changes**, and if it is only saved and not published, it will be displayed as **Has pending** changes. Published shows the last published time.
+**Pending** means whether the state is saved or not. **Published** shows the last published time.
+If published, it will be displayed as **No Pending Changes**, and if it is only saved and not published, it will be displayed as **Has pending** changes.
 
 <div>
     <img alt="template-list" src={useBaseUrl('/img/quickstart/create-template/create_template7.png')} />
