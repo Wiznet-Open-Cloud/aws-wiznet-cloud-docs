@@ -4,8 +4,8 @@
   <ShortName>WIZnet Cloud Docs</ShortName>
   <Description>Search WIZnet Cloud Docs</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://wiznet-open-cloud.github.io/aws-wiznet-cloud-docs/img/wizfavicon.ico</Image>
-  <Url type="text/html" method="get" template="https://wiznet-open-cloud.github.io/aws-wiznet-cloud-docs/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://wiznet-open-cloud.github.io/aws-wiznet-cloud-docs/opensearch.xml" />
-  <moz:SearchForm>https://wiznet-open-cloud.github.io/aws-wiznet-cloud-docs/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://docs.wizcloud.io/img/wizfavicon.ico</Image>
+  <Url type="text/html" method="get" template="https://docs.wizcloud.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://docs.wizcloud.io/opensearch.xml" />
+  <moz:SearchForm>https://docs.wizcloud.io/</moz:SearchForm>
 </OpenSearchDescription>
