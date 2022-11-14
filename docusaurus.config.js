@@ -72,7 +72,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://development.dewfiou61jl13.amplifyapp.com/default", // 변경
+            href: "https://app.wizcloud.io/", // 변경
             label: "Cloud",
             position: "right",
           },
@@ -110,7 +110,7 @@ const config = {
         logo: {
           src: "img/wiznet_logo_white.png",
           alt: "Appcircle Logo",
-          href: "https://appcircle.io",
+          href: "https://www.wiznet.io/",
           width: "100vw",
           // height: 33,
         },

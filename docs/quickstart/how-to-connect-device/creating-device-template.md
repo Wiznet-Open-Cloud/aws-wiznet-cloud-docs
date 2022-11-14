@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 # Creating a Device Template
 
 In the previous step, we connected the devices and verified that the data is being sent to the Cloud.
-In this step, by assigning a device template to the device. It will change the data sent from the device to a state where we can create widgets in the dashboard.
+In this step, by assigning a device template to the device, and it will change the data sent from the device to a state where we can create widgets in the dashboard.
 
 A device template defines the format of data that a device sends.
 A device template is a set of capabilities, and each item consists of a capability name, data type. It is created according to the type of data sent by the device.
@@ -43,7 +43,7 @@ Define the data format sent from the device by adding capabilities from the deta
 
 ### Create capabilities
 
-On the template detail page, click the **Add Capability** button to add capabilities. This action makes it the same as the data sent from the device.
+On the template detail page, click the **Add Capability** button to add capabilities. The device template format must be created in the same format as the data sent by the device.
 
 <div>
     <img alt="add-capbilities" src={useBaseUrl('/img/quickstart/create-template/create_template4.png')} />
@@ -55,9 +55,9 @@ On the template detail page, click the **Add Capability** button to add capabili
 If you have added capabilities, you should save them. Device templates have two main concepts: **Save and Publish**.
 
 - **Save**: "Save" changes to the device template. However, the changes are not applied to the device.
-- **Publish**: "Publish" changes and saves to actually apply them to devices.
+- **Publish**: "Publish" actually applies the saved changes to the device.
 
-If a device template is assigned to a device and the contents of the device template are changed and saved, the device is not affected. The device still determines whether the data is modeled against the previously published device template. Only when the device template is published, the criteria for judging data changes. <br/>
+If a device template is assigned to a device and the contents of the device template are changed and only saved, the device is not affected. The device still determines whether the data is modeled against the previously published device template. Only when the device template is published, the criteria for judging data changes. <br/>
 After adding all the capabilities, click the **Save** button to save the changes. It is not yet actually applied to the device.
 
 <div>
@@ -83,7 +83,9 @@ If published, it will be displayed as **No Pending Changes**, and if it is only 
 
 ### Applying a device template
 
-To apply a device template, you need to go to the detail page of the device you want to apply. Go to the **Edit device template** item on the detail page of the device you created in the previous step. Select the device template you just created and click the **Apply** button to apply it. You can now create your dashboard.
+To apply a device template, you need to go to the detail page of the device you want to apply. Go to the **Edit device template** item on the detail page of the device you created in the previous step. Select the device template you just created and click the **Apply** button to apply it.
+
+You can now create your dashboard.
 
 <div>
     <img alt="appliying-template" src={useBaseUrl('/img/quickstart/create-template/create_template8.png')} />

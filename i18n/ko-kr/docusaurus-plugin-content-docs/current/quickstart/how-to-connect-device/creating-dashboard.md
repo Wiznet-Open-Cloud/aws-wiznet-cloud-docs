@@ -44,8 +44,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 </div>
 <br />
 
-위젯 생성 입력란들은 모두 필수입니다. 먼저 위젯 타이틀을 입력하고, 위젯 타입을 선택합니다. <br />
-위젯 타입에는 **D2C, C2D** 두 개의 타입이 있습니다. **D2C** 타입은 Device to Control의 약자로, 디바이스에서 보내는 데이터를 시각화하는 데에 사용하는 위젯입니다. 대표적으로 Line, Bar 차트 등이 있습니다. **C2D** 는 Control to Device 의 약자로, 디바이스에 명령을 보내는 위젯 타입입니다. 디바이스에 MQTT Message를 보내거나 ON/OFF 메시지를 보낼 수 있습니다. <br />
+위젯 생성 입력란들은 모두 필수입니다. 먼저 위젯 타이틀을 입력하고, 위젯 타입을 선택합니다. 위젯 타입에는 **D2C, C2D** 두 개의 타입이 있습니다. <br/>
+**D2C** 타입은 **Device to Control**의 약자로, 디바이스에서 보내는 데이터를 시각화하는 데에 사용하는 위젯입니다. 대표적으로 Line, Bar 차트 등이 있습니다. **C2D** 는 Control to Device 의 약자로, 디바이스에 명령을 보내는 위젯 타입입니다. 디바이스에 MQTT Message를 보내거나 ON/OFF 메시지를 보낼 수 있습니다. <br />
 
 여기에서는 Line chart를 만들기 위해서 D2C 타입을 선택했습니다. 타입을 선택한 후 Widget Library에서 **Browse** 버튼을 클릭해서 위젯을 선택합니다.
 
@@ -54,7 +54,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 </div>
 <br />
 
-다이얼로그 창에서 Line Chart를 선택합니다.
+다이얼로그 창에서 **Line Chart**를 선택합니다.
 
 <div>
     <img alt="select-widget-library" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard6.png')} />
@@ -68,7 +68,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 </div>
 <br />
 
-capability는 디바이스가 가지고 있는 디바이스 템플릿의 capabililty 목록입니다. 차트에서 시각화할 capability 를 선택합니다. capability 까지 선택했다면 Add 버튼을 클릭해서 위젯을 생성합니다.
+capability는 디바이스가 가지고 있는 디바이스 템플릿의 capabililty 목록입니다. 차트에서 시각화할 capability 를 선택합니다. capability 까지 선택했다면 **Add** 버튼을 클릭해서 위젯을 생성합니다.
 
 <div>
     <img alt="select-capability" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard8.png')} />

@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 
 # Connecting Device to Cloud
 
-If you have created a device, you need to connect the device to the cloud.
+If you have created a device, you need to connect the device to the Cloud.
 In this step, you will set up the firmware to send MQTT messages from your device to the Cloud.
 You can see more examples in the **Support** menu.
 
@@ -40,7 +40,7 @@ To configure the development environment, refer to the **Development environment
 
 ### Git clone repository
 
-Clone the [Github repository: RP2040-HAT-AWS-C](https://github.com/Wiznet/RP2040-HAT-AWS-C) repository.
+Clone the [Github repository: RP2040-HAT-AWS-C](https://github.com/Wiznet/RP2040-HAT-AWS-C).
 
 [https://github.com/Wiznet/RP2040-HAT-AWS-C](https://github.com/Wiznet/RP2040-HAT-AWS-C)
 
@@ -53,7 +53,7 @@ git clone https://github.com/Wiznet/RP2040-HAT-AWS-C.git
 ### Setting configuration
 
 Setup requires a domain and device name.
-Go to the detail page of the device which you created in the previously step and click the Device Management tab.
+Go to the detail page of the device which you created in the previously step and click the **Device Management** tab.
 Copy the device name and endpoint from the tab and edit the file below. <br />
 
 <div>
@@ -81,7 +81,7 @@ Enter the certificate contents corresponding to each variable.
 - mqtt_client_cert: Devcie Certificate
 - mqtt_private_key: Device Private Key
 
-Variables must be entered in the form below. Put `"` (quotation marks) at the beginning of the line and `\r\n"` at the end.
+Variables must be entered in the form below. Put `"` (quotation marks) at the beginning of the line and `\r\n"` at the end of the line.
 
 ```c
 uint8_t mqtt_root_ca[] =

@@ -37,7 +37,7 @@ Click the dashboard title on the dashboard list to enter the detail page.
 
 ### Add New Widget
 
-Click **Add New Widget** or **Add** button in detail page. When you click the button, an input field for creating a widget appears.
+Click **Add New Widget** or **Add** button in detail page. When you click the button, the input box for creating a widget appears.
 
 <div>
     <img alt="add-new-widget" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard4.png')} />
@@ -45,8 +45,9 @@ Click **Add New Widget** or **Add** button in detail page. When you click the bu
 <br />
 
 All input fields are required. First, enter the widget title and select the widget type.There are two widget types, **D2C, C2D**. <br />
-**D2C** type is an abbreviation of Device to Control and is a widget used to visualize the data sent from the device. Typical examples include line and bar charts.
-**C2D** is an abbreviation of Control to Device, which is a widget type that sends commands to the device. You can send MQTT messages or send ON/OFF messages.
+**D2C** type is an abbreviation of **Device to Control** and is a widget used to visualize the data sent from the device. Typical examples include line and bar charts.
+**C2D** is an abbreviation of **Control to Device**, which is a widget type that sends commands to the device. You can send MQTT messages or send ON/OFF messages.
+
 In this tutorial, the D2C type is selected to create a line chart.
 Click the **Browse** button to select a library of widgets from among D2C type widgets.
 
@@ -55,7 +56,7 @@ Click the **Browse** button to select a library of widgets from among D2C type w
 </div>
 <br />
 
-Select the Line Chart in the dialog window.
+Select the **Line Chart** in the dialog window.
 
 <div>
     <img alt="select-widget-library" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard6.png')} />
@@ -70,14 +71,14 @@ Select the device you created in the previously step.
 <br />
 
 Capability is a list of capabilities of the template that the device has.
-Select the capability to visualize in the chart. After the capability is selected, click Add button to create widget.
+Select the capability to visualize in the chart. After the capability is selected, click **Add** button to create widget.
 
 <div>
     <img alt="select-capability" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard8.png')} />
 </div>
 <br />
 
-The widget created on the dashboard is output. Basically, the last 15 minutes of data are fetched and the widget is drawn. You can also select and view the desired time zone.
+The widget created on the dashboard is output. Basically, the last 15 minutes of data are fetched and the widget is drawn. You can also select and view the desired time range.
 
 <div>
     <img alt="done-widget-add" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard9.png')} />

@@ -29,7 +29,7 @@ When you click the button, the dialog window appears. Below the input field is a
 </div>
 <br />
 
-Enter the device name according to the device name rules and click the register button. After a few seconds, device creation is complete.
+Enter the device name according to the device name rules and click the **Register** button. After a few seconds, device creation is complete.
 
 <div>
     <img alt="device-register-dialog-input" src={useBaseUrl('/img/quickstart/create-device/create_device3.png')} />
@@ -60,21 +60,21 @@ You can use the certificate and key files to connect your device to the Cloud an
 ### Check device details
 
 If you close the dialog window, you can see that the device has been added to the device list. The connection status is displayed as "Disconnected" because there is no connection yet.
-By clicking on the name in the device list, you can view the details of the device and get the information you need to connect to the cloud.
+By clicking on the name in the device list, you can view the details of the device and get the information you need to connect to the Cloud.
 
 <div>
     <img alt="click-device-detail" src={useBaseUrl('/img/quickstart/create-device/create_device6.png')} />
 </div>
 <br />
 
-When you enter the detail page, you can see the raw data tab first. The raw data cannot be checked because the data has not been sent yet.
+When you enter the detail page, you can see the **RAW DATA** tab first. The raw data cannot be checked because the data has not been sent yet.
 
 <div>
     <img alt="device-raw-data-tab" src={useBaseUrl('/img/quickstart/create-device/create_device7.png')} />
 </div>
 <br />
 
-In 'Device Management' tab, check the real device name and device endpoint required for cloud connection.
+In **Device Management** tab, check the real device name and device endpoint required for Cloud connection.
 The name set when creating the device and the name used in the Cloud are separate. You must use the real device name to connect to the device.
 
 <div>

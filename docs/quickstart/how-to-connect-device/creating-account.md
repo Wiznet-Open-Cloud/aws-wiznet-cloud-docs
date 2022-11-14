@@ -19,17 +19,17 @@ Open [WIZnet Cloud](https://development.dewfiou61jl13.amplifyapp.com/) and click
     <img alt="click-sign-up-button" src={useBaseUrl('/img/quickstart/create-account/1.png')} />
 </div>
 
-### Step 2. Enter your information
+### Enter your information
 
-All input fields are required. Enter your information and check the policy.
+All input fields are required. Enter your information and check the policy. After entering the information and clicking the Sign up button, a verification code was sent to your email address.
 
 <div>
     <img alt="enter-your-information" src={useBaseUrl('/img/quickstart/create-account/2.png')} />
 </div>
 
-### Step 3. Enter your verification code
+### Enter your verification code
 
-After entering the information and clicking the Sign up button, a verification code was sent to your email address. Go your email and copy the verification code and paste it into the input field.
+Go your email and copy the verification code and paste it into the input field.
 After your confirmation, you can sign into WIZnet Cloud.
 
 <div>
