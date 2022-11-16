@@ -22,7 +22,7 @@ This is the process of creating a new device. Go to the device page and click th
 </div>
 <br />
 
-When you click the button, the dialog window appears. Below the input field is a description of the device name rule.
+When you click the button, the dialog window appears. Below the input field is a description of the device name rules.
 
 <div>
     <img alt="device-register-dialog" src={useBaseUrl('/img/quickstart/create-device/create_device2_en.png')} />

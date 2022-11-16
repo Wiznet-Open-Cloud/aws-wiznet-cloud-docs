@@ -10,10 +10,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 # Creating a Device Template
 
 In the previous step, we connected the devices and verified that the data is being sent to the Cloud.
-In this step, by assigning a device template to the device, and it will change the data sent from the device to a state where we can create widgets in the dashboard.
+In this step, by assigning a device template to the device, it will change the data sent from the device to a state where we can create widgets in the dashboard.
 
 A device template defines the format of data that a device sends.
-A device template is a set of capabilities, and each item consists of a capability name, data type. It is created according to the type of data sent by the device.
+A device template is a set of capabilities, and each item consists of a capability name and data type. It is created according to the type of data sent by the device.
 
 If the data format sent by the device matches the device template format, the data is saved as **model data**. Otherwise, the data is saved as **unmodel data** which cannot be used to create dashboard widgets.
 

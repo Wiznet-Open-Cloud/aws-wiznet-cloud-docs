@@ -71,7 +71,7 @@ Select the device you created in the previously step.
 <br />
 
 Capability is a list of capabilities of the template that the device has.
-Select the capability to visualize in the chart. After the capability is selected, click **Add** button to create widget.
+Select the capability to visualize in the chart. After the capability is selected, click the **Add** button to create the widget.
 
 <div>
     <img alt="select-capability" src={useBaseUrl('/img/quickstart/create-dashboard/create_dashboard8.png')} />
