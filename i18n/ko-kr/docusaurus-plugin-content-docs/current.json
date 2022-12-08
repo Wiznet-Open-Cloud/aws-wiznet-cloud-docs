@@ -11,6 +11,10 @@
     "message": "WIZ Cloud 기본 사용법",
     "description": "The label for category How to connect your device? in sidebar mySidebar"
   },
+  "sidebar.mySidebar.category.Device Guide": {
+    "message": "디바이스 연결 가이드",
+    "description": "The label for category Device Guide in sidebar mySidebar"
+  },
   "sidebar.mySidebar.category.How to use WIZnet Cloud": {
     "message": "How to use WIZnet Cloud",
     "description": "The label for category How to use WIZnet Cloud in sidebar mySidebar"
