@@ -48,6 +48,8 @@ All input fields are required. First, enter the widget title and select the widg
 **D2C** type is an abbreviation of **Device to Control** and is a widget used to visualize the data sent from the device. Typical examples include line and bar charts.
 **C2D** is an abbreviation of **Control to Device**, which is a widget type that sends commands to the device. You can send MQTT messages or send ON/OFF messages.
 
+Among C2D widgets, the **Publish MQTT Message** widget does not have a fixed topic, but can send a 'message in the desired format' to a 'desired topic'. **Switch** widgets that send ON/OFF messages use the topic `$aws/things/YOUR_DEVICE_NAME/shadow/update/accepted` and send messages of the form `{"message": "on"}`.
+
 In this tutorial, the D2C type is selected to create a line chart.
 Click the **Browse** button to select a library of widgets from among D2C type widgets.
 

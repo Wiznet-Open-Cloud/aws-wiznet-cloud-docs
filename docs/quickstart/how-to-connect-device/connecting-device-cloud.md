@@ -54,7 +54,9 @@ git clone https://github.com/Wiznet/RP2040-HAT-AWS-C.git
 
 Setup requires a domain and device name.
 Go to the detail page of the device which you created in the previously step and click the **Device Management** tab.
-Copy the device name and endpoint from the tab and edit the file below. <br />
+Copy the device name and endpoint from the tab and edit the file below.
+
+On this page, you can also check MQTT topics that can be published/subscribed. MQTT messages can only be processed in the Cloud using a defined topic. Subscribe Topic is used in the Switch widget in the Dashboard. On/Off messages are sent to the specified Subscribe Topic. The message is of the form `{"message": "on"}`. <br/>
 
 <div>
     <img alt="template-list" src={useBaseUrl('/img/quickstart/connecting-device-cloud/device_management_tab.png')} />

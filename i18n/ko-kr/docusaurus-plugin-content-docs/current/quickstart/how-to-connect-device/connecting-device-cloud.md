@@ -57,6 +57,8 @@ git clone https://github.com/Wiznet/RP2040-HAT-AWS-C.git
 이전 단계에서 생성한 디바이스의 상세 페이지로 가서 **Device Management** tab을 클릭합니다.
 해당 탭에서 디바이스의 이름과 endpoint를 복사해서 아래의 파일을 수정합니다. <br />
 
+이 페이지에서는 Publish/Subscribe 할 수 있는 MQTT Topic도 확인할 수 있습니다. 정해진 토픽을 사용해야만 클라우드에서 MQTT 메시지를 처리할 수 있습니다. Subscribe Topic은 대시보드에서 Switch 위젯에서 사용됩니다. 정해진 Subscribe Topic으로 On/Off 메시지를 보냅니다. 메시지는 `{"message": "on"}` 형태입니다.
+
 <div>
     <img alt="template-list" src={useBaseUrl('/img/quickstart/connecting-device-cloud/device_management_tab.png')} />
 </div>
